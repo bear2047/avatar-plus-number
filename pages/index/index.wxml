@@ -1,0 +1,21 @@
+<view class="">
+  <view class="imgArea">
+    <canvas canvas-id="myCanvas" style="width: 300px;height: 300px;" />
+  </view>
+  <ul>
+    <li data-h='1' bindtap="changeNum">1</li>
+    <li data-h='2' bindtap="changeNum">2</li>
+    <li data-h='3' bindtap="changeNum">3</li>
+    <li data-h='4' bindtap="changeNum">4</li>
+    <li data-h='5' bindtap="changeNum">5</li>
+    <li data-h='6' bindtap="changeNum">6</li>
+    <li data-h='7' bindtap="changeNum">7</li>
+    <li data-h='8' bindtap="changeNum">8</li>
+    <li data-h='9' bindtap="changeNum">9</li>
+  </ul>
+  <view class="buttonArea">
+    <button bindtap="chooseImage">选择图片</button>
+    <button bindtap="saveImage">保存</button>
+  </view>
+
+</view>
